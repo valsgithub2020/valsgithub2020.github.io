@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>CSS Template</title>
+<meta charset="UTF-8">
+<meta name-"viewport" content-"width-device-width, initial-scale-1.0">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the header */
+header {
+  background-color: #888844;
+  font-family: arial;
+  padding: 30px;
+  text-align: center;
+  font-size: 5vw;
+  color: white;
+}
+
+/* Create two columns/boxes that floats next to each other */
+nav {
+  float: left;
+  width: 20%;
+  height: 500px;
+  background: #f6f6ee;
+  padding: 20px;
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  font-family:courier;
+}
+
+article {
+  float: left;
+  padding: 20px;
+  width: 80%;
+  height: 1300px;
+  background-color: #000000;
+  text-align: center;
+}
+
+/* Clear floats after the columns */
+section:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the footer */
+footer {
+  background-color: #888844;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+
+}
+
+a:link {
+    color: black;
+}
+
+a:hover{
+   color: red;
+
+}
+
+a:visited{
+     color: black;
+}
+
+img {
+    max-height: 100%;
+    max-width: 100%;
+
+}
+
+</style>
+</head>
+<body>
+
+
+<header>
+  <h2style="font-size: 50px;">𝔼𝕝𝕖𝕧𝕒𝕥𝕚𝕠𝕟 𝕎𝕠𝕣𝕤𝕙𝕚𝕡</h2>
+</header>
+
+<section>
+  <nav>
+    <ul>
+      <li><a href="#">Home Page</a></li>
+      <li><a href="#">About The Band</a></li>
+      <li><a href="#">Top Albums</a></li>
+      <li><a href="#">Media</a></li>
+      <li><a href="#">Tour</a></li>
+      <li><img src= "https://pbs.twimg.com/profile_images/1182351633226895363/MzNODWAZ_400x400.jpg"</li>
+    </ul>
+  </nav>
+  
+  <article>
+ <h1 style="font-size:30px;color:white;border:5px solid white;">Media</h1>
+  	<table align="center">
+    
+    <tr>
+    <td><p style="color:white">Elevation Worship - See a Victory / Surrounded</p>
+    </tr>
+    
+    <tr>
+    <td><iframe width="500" height="300" src="https://youtube.com/embed/wJghcUSZyK4" frameborder="0" allow="accelerometer; autoplay; encrypted-media;gyroscope; picture-in-picture" allowfullscreen></iframe></td>
+    </tr>
+    
+    <tr>
+    <td><p style="color:white">The Blessing Feat. Kari Jobe and Cody Carnes</p>
+    </tr>
+    
+    <tr>
+    <td><iframe width="500" height="300" src="https://www.youtube.com/embed/Zp6aygmvzM4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></td>
+    </tr>
+    
+    <tr>
+    <td><p style="color:white">Do It Again / Acoustic</p>
+    </tr>
+    
+    <tr>
+    <td><iframe width="560" height="315" src="https://www.youtube.com/embed/SIgitzSmtGQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></td>
+    </tr>
+    
+    
+    
+    
+   </table>
+  
+  
+  </article>
+  
+</section>
+
+<footer>
+  <i>Copyright &copy; 2020 Valeria Sanchez. All Rights Reserved.</i>  
+</footer>
+
+</body>
+</html>
+

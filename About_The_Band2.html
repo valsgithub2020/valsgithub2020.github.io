@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>CSS Template</title>
+<meta charset="UTF-8">
+<meta name-"viewport" content-"width-device-width, initial-scale-1.0">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the header */
+header {
+  background-color: #888844;
+  font-family: arial;
+  padding: 30px;
+  text-align: center;
+  font-size: 5vw;
+  color: white;
+}
+
+/* Create two columns/boxes that floats next to each other */
+nav {
+  float: left;
+  width: 20%;
+  height: 100px;
+  background: #f6f6ee;
+  padding: 20px;
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  font-family:courier;
+}
+
+article {
+  float: left;
+  padding: 20px;
+  width: 80%;
+  height: 900px;
+  background-color: #000000;
+  text-align: center;
+}
+
+/* Clear floats after the columns */
+section:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the footer */
+footer {
+  background-color: #888844;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+
+}
+
+a:link {
+    color: black;
+}
+
+a:hover{
+   color: red;
+
+}
+
+a:visited{
+     color: black;
+}
+
+img {
+    max-height: 100%;
+    max-width: 100%;
+
+}
+
+</style>
+</head>
+<body>
+
+
+<header>
+  <h2style="font-size: 50px;">𝔼𝕝𝕖𝕧𝕒𝕥𝕚𝕠𝕟 𝕎𝕠𝕣𝕤𝕙𝕚𝕡</h2>
+</header>
+
+<section>
+  <nav>
+    <ul>
+      <li><a href="#">Home Page</a></li>
+      <li><a href="#">About The Band</a></li>
+      <li><a href="#">Top Albums</a></li>
+      <li><a href="#">Media</a></li>
+      <li><a href="#">Tour</a></li>
+      <li><img src= "https://pbs.twimg.com/profile_images/1182351633226895363/MzNODWAZ_400x400.jpg"</li>
+    </ul>
+  </nav>
+  
+  <article style="color: white">
+   <img src="https://elevationworship.com/app/uploads/2020/03/About-2.jpg"/>
+   <p> Elevation Worship began in 2006 when Elevation Church opened up. Based in North Carolina, the church is led by Pastor Steven Furtick. Elevation Worship is a contemporary worship band with the main singers as Chris Brown, Jane Williams, Wade Joy, Tiffany Hammer, and Jonsal Barrientes. The band often adds additional vocals from the church. Besides singing on Sundays at their local church, the band has released music to the public. Starting in their first church in North Carolina, the band has been able to reach millions around the world. </p>
+   
+   <p> As Elevation Church ministries began to grow, so did the band. In the past 14 years, the church has expanded its services with multiple campuses around the country along with the global online streaming of sermons. All around the world people can hear the word of God and powerful worship music to fuel their faith. Recording live, the band provides groundbreaking music to the world to encourage the love of God and spread the act of praise.</p>
+   
+   <p> 
+ With twelve albums and many singles, the band has songs with over 95.8 million streams on Spotify. Their song, Hallelujah Here Below has been a Grammy nomination Do it Again has reached #2 on Billboards Christian AC song chart. They have many songs with features by other Christian singers like Tauren Wells, Kari Jobe, and Lauren Daigle. Besides singing at church, they also go on tour with bands like Hillsong. Their latest release has been the album Graves Into Gardens in January of 2020. It is dedicated to express the hope and revival that can happen in your life if you trust God with everything. WIth their music available on all streaming platforms, Elevation Worship continues to deliver hit after hit that is centered around Jesus Christ. </p>
+
+</article>
+  
+</section>
+
+<footer>
+  <i>Copyright &copy; 2020 Valeria Sanchez. All Rights Reserved.</i>  
+</footer>
+
+</body>
+</html>
+
+

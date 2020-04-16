@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>CSS Template</title>
+<meta charset="UTF-8">
+<meta name-"viewport" content-"width-device-width, initial-scale-1.0">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the header */
+header {
+  background-color: #888844;
+  font-family: arial;
+  padding: 30px;
+  text-align: center;
+  font-size: 5vw;
+  color: white;
+}
+
+/* Create two columns/boxes that floats next to each other */
+nav {
+  float: left;
+  width: 20%;
+  height: 500px;
+  background: #f6f6ee;
+  padding: 20px;
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  font-family:courier;
+}
+
+article {
+  float: left;
+  padding: 20px;
+  width: 80%;
+  height: 1000px;
+  background-color: #000000;
+  text-align: center;
+}
+
+/* Clear floats after the columns */
+section:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the footer */
+footer {
+  background-color: #888844;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+
+}
+
+a:link {
+    color: black;
+}
+
+a:hover{
+   color: red;
+
+}
+
+a:visited{
+     color: black;
+}
+
+img {
+    max-height: 100%;
+    max-width: 100%;
+
+}
+
+p {
+	color:white;
+}
+
+ol {
+	color:white;
+    text-align: left;
+}
+</style>
+</head>
+<body>
+
+
+<header>
+  <h2style="font-size: 50px;">𝔼𝕝𝕖𝕧𝕒𝕥𝕚𝕠𝕟 𝕎𝕠𝕣𝕤𝕙𝕚𝕡</h2>
+</header>
+
+<section>
+  <nav>
+    <ul>
+      <li><a href="#">Home Page</a></li>
+      <li><a href="#">About The Band</a></li>
+      <li><a href="#">Top Albums</a></li>
+      <li><a href="#">Media</a></li>
+      <li><a href="#">Tour</a></li>
+      <li><img src= "https://pbs.twimg.com/profile_images/1182351633226895363/MzNODWAZ_400x400.jpg"</li>
+    </ul>
+  </nav>
+  
+  <article>
+  <h1 style="font-size:30px;color:white;border:5px solid white;">Top Albums</h1>
+  
+  <table align="center">
+  
+  <tr>
+  <tr><th style="color:white;">Here As In Heaven</th></tr>
+  <td><img src="https://mtracks.azureedge.net/public/images/albums/284/665.jpg" height="200" width="200"/></td>
+  <td>
+  		<ol>
+        <li>Here As In Heaven</li>
+        <li>Grace Like a Wave</li>
+        <li>Call Upon the Lord</li>
+        <li>O Come to the Altar(Live)</li>
+        <li>Resurrecting(Live)</li>
+        <li>Evidence</li>
+        <li>Shine A Light</li>
+        <li>Yahweh</li>
+        <li>I Can't Believe</li>
+        <li>First And Only</li>
+        <li>Praise Goes On</li>
+        <li>Hold On To Me</li>
+        <li>For A Moment</>
+         </ol>
+     </td>
+     </tr>
+     
+     <tr>
+     <tr><th style="color:white;">There Is A Cloud</th></tr>
+     <td><img src="https://elevationworship.com/app/uploads/2019/04/EW-TIAC_FinalCover-1.jpg" height-"200" width="200"/></td>
+     
+     <td>
+     	<ol>
+        <li>There Is A Cloud</li>
+        <li>Overcome</li>
+        <li>Do It Again</li>
+        <li>Fullness</li>
+        <li>He Is Lord</li>
+        <li>Yours (Glory and Praise)</li>
+        <li>Uncontainable Love</li>
+        <li>Forever I Run</li>
+        <li>None</li>
+        <li>Grateful</li>
+        <li>Mighty Cross</li>
+        <li>Oh Sing</li>
+        <li>Here IN The Presnce</li>
+        </ol>
+      </td>
+      </tr>
+      
+      <tr>
+      <tr><th style="color:white;">Hallelujah Here Below</th></tr>
+      <td><img src="https://upload.wikimedia.org/wikipedia/en/thumb/8/85/HallelujahHereBelow.png/220px-HallelujahHereBelow.png" height="200" width="200"/></td>
+      <td>
+      	<ol>
+        <li>Won't Stop Now</li>
+        <li>God Of The Promise</li>
+        <li>Hallelujah Here Below</li>
+        <li>Here Again</li>
+        <li>Echo (feat.Tauren Wells)
+        <li>Worthy</li>
+        <li>Might God (Another Hallelujah)</li>
+        <li>Power</li>
+        <li>Then He Rose</li>
+        <li>Greater Than Your Love</li>
+        <li>Faithful</li>
+        <li>Here Comes Heaven</li>
+        <li>Still God</li>
+        <li>Better Word</li>
+         </ol>
+         </td>
+         </tr>
+      
+      
+  
+  
+  
+  </table>
+  
+  </article>
+  
+</section>
+
+<footer>
+  <i>Copyright &copy; 2020 Valeria Sanchez. All Rights Reserved.</i>  
+</footer>
+
+</body>
+</html>
+
+
